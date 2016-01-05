@@ -189,25 +189,25 @@ $(document).ready(function() {
 
 		// // 04.1 Gallery - Masonry
 		// //------------------------------------------------------------------------------
-		// var $gallery = $('#masonry-gallery');
-		//
-		// if (device.tablet() || device.mobile()) {
-		// 	$gallery.masonry({
-		// 		columnWidth: ".grid-sizer",
-		// 		itemSelector: ".masonry-col",
-		// 		gutter: ".gutter-sizer",
-		// 		transitionDuration: 0,
-		// 	});
-		// }
-		// else
-		// {
-		// 	$gallery.masonry({
-		// 		columnWidth: ".grid-sizer",
-		// 		itemSelector: ".masonry-col",
-		// 		gutter: ".gutter-sizer",
-		// 		transitionDuration: "1s",
-		// 	});
-		// }
+		var $gallery = $('#masonry-gallery');
+
+		if (device.tablet() || device.mobile()) {
+			$gallery.masonry({
+				columnWidth: ".grid-sizer",
+				itemSelector: ".masonry-col",
+				gutter: ".gutter-sizer",
+				transitionDuration: 0,
+			});
+		}
+		else
+		{
+			$gallery.masonry({
+				columnWidth: ".grid-sizer",
+				itemSelector: ".masonry-col",
+				gutter: ".gutter-sizer",
+				transitionDuration: "1s",
+			});
+		}
 
 
 		// 04.2 Nav Header Position (Mobile)
