@@ -1,1 +1,6 @@
 @font-face { font-family: Snatchy; src: url('fonts/Snatchy.ttf'); }
+
+.paragraph-list {
+	margin-top: 16px;
+	padding-left: 16px;
+}
