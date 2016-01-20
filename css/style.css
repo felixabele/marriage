@@ -200,7 +200,7 @@
 /* 01. GENERAL			 						 */
 /*===============================================*/
 body{
-	font-family: 'Arvo', serif;
+	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif
 	color:#6a6a6a;
 	font-size:15px;
 }
@@ -216,7 +216,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
 
 h1 a:hover, h2 a:hover, h3 a:hover,
 h4 a:hover, h5 a:hover, h6 a:hover{
-	color:#f0394d;
+	color:#e683ef;
 }
 
 h1, h2, h3,
@@ -241,6 +241,7 @@ h2, .h2{
 
 h3, .h3{
 	font-size:20px;
+	color: #e683ef;
 }
 
 h4, .h4{
@@ -262,7 +263,8 @@ h4.inline, h5.inline, h6.inline{
 }
 
 p{
-	font-family: 'Arvo', serif;
+	/*font-family: 'Arvo', serif;*/
+	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
 	font-size:15px;
 	line-height:26px;
 	margin-bottom:25px;
@@ -481,7 +483,7 @@ img.with-border{
   	font-weight: normal;
   	font-size:10px;
 	content: '\e9bd';
-	color:#f0394d;
+	color:#e683ef;
 	text-align:center;
 }
 
@@ -499,7 +501,7 @@ img.with-border{
 }
 
 #nav-menu > li a:hover{
-	color:#f0394d;
+	color:#e683ef;
 }
 
 /* 03.1.1 Transparent 							 */
@@ -509,7 +511,7 @@ img.with-border{
 }
 
 .transparent #nav-menu > li a:hover{
-	color:#f0394d;
+	color:#e683ef;
 }
 
 .transparent.stick-it #nav-menu > li a{
@@ -541,7 +543,7 @@ img.with-border{
 	list-style-type:none;
 	padding:0;
 	text-align:left;
-	border-top:solid 3px #f0394d
+	border-top:solid 3px #e683ef
 }
 
 #nav-menu li:hover > ul{
@@ -561,7 +563,7 @@ img.with-border{
 }
 
 #nav-menu ul li a:hover{
-	background-color:#f0394d;
+	background-color:#e683ef;
 	border:none;
 	color:#FFF;
 }
@@ -687,7 +689,7 @@ img.with-border{
 }
 
 #menu-icon a:hover i{
-	color:#f0394d
+	color:#e683ef
 }
 
 #menu-icon.white a i{
@@ -696,7 +698,7 @@ img.with-border{
 }
 
 #menu-icon.white a:hover i{
-	color:#f0394d
+	color:#e683ef
 }
 
 
@@ -724,7 +726,7 @@ img.with-border{
 }
 
 #sticky-menuicon a:hover{
-	background-color:#f0394d;
+	background-color:#e683ef;
 }
 
 #sticky-menuicon a:hover i{
@@ -781,7 +783,7 @@ img.with-border{
 }
 
 #close-button:hover i{
-	color:#f0394d;
+	color:#e683ef;
 }
 
 /* 04.3.3 Parent Menu */
@@ -803,7 +805,7 @@ img.with-border{
   	font-weight: normal;
   	font-size:10px;
 	content: '\e9bd';
-	color:#f0394d;
+	color:#e683ef;
 	text-align:center;
 	vertical-align:middle;
 	padding-right:10px;
@@ -818,7 +820,7 @@ img.with-border{
 }
 
 #side-nav-menu > li a:hover{
-	color:#f0394d;
+	color:#e683ef;
 }
 
 /* 04.3.4 Child Menu */
@@ -880,7 +882,7 @@ img.with-border{
 	width:100%;
 	height:100%;
 	border-radius:0%;
-	background-color:#f0394d;
+	background-color:#e683ef;
 	color:#FFF;
 	text-align:center;
 	font-family: 'Arvo', serif;
@@ -1082,7 +1084,7 @@ img.with-border{
 }
 
 .pink-dot{
-	color: #f0394d;
+	color: #e683ef;
 }
 
 /* ----------------------------------------------*/
@@ -1269,7 +1271,7 @@ img.with-border{
 }
 
 .sidebar-menu li a:hover{
-	color:#f0394d;
+	color:#e683ef;
 }
 
 .side-tab{
@@ -1323,7 +1325,7 @@ img.with-border{
 	left:0;
 	right:0;
 	top:-12px;
-	color:#f0394d !important;
+	color:#e683ef !important;
 	background-color:#e1dddd !important;
 }
 
@@ -1483,7 +1485,7 @@ hr.line-divider{
 }*/
 
 .pink-heart{
-	color:#f0394d;
+	color:#e683ef;
 	font-size:18px;
 	position:relative;
 	z-index:3
@@ -1524,8 +1526,8 @@ a.de-button.outline, span.de-button.outline, input[type=submit].outline{
 }
 
 a.de-button.reverse, span.de-button.reverse, input[type=submit].reverse{
-	background-color:#f0394d;
-	border:solid 1px #f0394d;
+	background-color:#e683ef;
+	border:solid 1px #e683ef;
 	color:#FFF;
 }
 
@@ -1545,8 +1547,8 @@ a.de-button.large, span.de-button.large, input[type=submit].large{
 }
 
 a.de-button:hover, input[type=submit]:hover{
-	background-color:#f0394d;
-	border-color:#f0394d;
+	background-color:#e683ef;
+	border-color:#e683ef;
 	color:#FFF;
 	text-decoration:none;
 }
@@ -1645,7 +1647,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	font-family: "fontello";
 	position:absolute;
 	font-size:22px;
-	color:#f0394d;
+	color:#e683ef;
 	content:"\e806";
 	top:-17px;
 	left:0;
@@ -1729,6 +1731,8 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	-o-transition: 0.3s all ease;
 	-ms-transition: 0.3s all ease;
 	transition: 0.3s all ease;
+
+	/*border: 5px solid #f6f6f6;*/
 	/*The transition will be disabled on script.js for tablet/mobile*/
 }
 
@@ -1802,11 +1806,11 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 .de-icon.default.reverse{
-	color:#f0394d;
+	color:#e683ef;
 }
 
 a:hover .de-icon.default, a:hover .de-icon.default.light{
-	color:#f0394d;
+	color:#e683ef;
 }
 
 a:hover .de-icon.default.reverse{
@@ -1833,7 +1837,7 @@ a:hover .de-icon.default.light.reverse{
 }
 
 .de-icon.square.reverse, .de-icon.circle.reverse, .de-icon.rounded.reverse{
-	background-color:#f0394d;
+	background-color:#e683ef;
 	color:#FFF;
 }
 
@@ -1844,7 +1848,7 @@ a:hover .de-icon.default.light.reverse{
 
 .de-icon.square.light.reverse, .de-icon.circle.light.reverse, .de-icon.rounded.light.reverse{
 	background-color:#FFF;
-	color:#f0394d;
+	color:#e683ef;
 }
 
 
@@ -1856,8 +1860,8 @@ a:hover .de-icon.default.light.reverse{
 
 .de-icon.outline.reverse{
 	background-color:transparent;
-	color:#f0394d;
-	border:1px solid #f0394d;
+	color:#e683ef;
+	border:1px solid #e683ef;
 }
 
 .de-icon.outline.light, .de-icon.outline.light.reverse{
@@ -1867,7 +1871,7 @@ a:hover .de-icon.default.light.reverse{
 }
 
 a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square{
-	background-color:#f0394d;
+	background-color:#e683ef;
 	color:#FFF;
 	border:none;
 }
@@ -1921,7 +1925,7 @@ a:hover .de-icon.effect2 i{
 /* 08.5 Effect Square/Rounded To Circle 	  	  */
 /*------------------------------------------------*/
 a:hover .de-icon.effect3{
-	background-color:#f0394d;
+	background-color:#e683ef;
 	color:#fff;
 	border-radius: 50%;
 }
@@ -2365,8 +2369,8 @@ form .btn-primary.focus,
 form .btn-primary:active,
 form .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-	background-color:#f0394d;
-	border-color:#f0394d;
+	background-color:#e683ef;
+	border-color:#e683ef;
 	color:#FFF;
  	border-color: #cccccc;
 }
@@ -2439,7 +2443,7 @@ option{
 }
 
 .message .bg-danger{
-	background-color:#f0394d;
+	background-color:#e683ef;
 }
 
 .message .bg-success{
@@ -2476,7 +2480,7 @@ form .has-error .btn-primary{
 /* ----------------------------------------------*/
 
 #couple{
-	padding:140px 0 100px 0;
+	padding:30px 0 100px 0;
 }
 
 .couple-name{
@@ -2703,7 +2707,7 @@ footer .image-divider.fixed-height{
 }
 
 .his-her-name .custom-heart{
-	background-color:#f0394d;
+	background-color:#e683ef;
 	width:65px;
 	height:65px;
 	line-height:65px;
@@ -2738,7 +2742,7 @@ footer .image-divider.fixed-height{
 	margin-left:16px;
 	height:85px;
 	width:85px;
-	background-color:#f0394d;
+	background-color:#e683ef;
 	border-radius:50%;
 }
 
@@ -2806,7 +2810,7 @@ footer .image-divider.fixed-height{
 }
 
 .and{
-	color:#f0394d
+	color:#e683ef
 }
 
 .border-column{
@@ -2852,7 +2856,7 @@ h2#dont-miss-it-title{
 }
 
 .circle-countdown .countdown-amount {
-	background-color:#f0394d;
+	background-color:#e683ef;
 	width:85px;
 	height:85px;
 	border-radius:50%;
@@ -2945,7 +2949,7 @@ h2#dont-miss-it-title{
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-	background: #f0394d;
+	background: #e683ef;
 }
 
 /* -------------------------------------------*/
@@ -3119,7 +3123,7 @@ button.mfp-close, button.mfp-arrow {
 }
 
 #nav-menu li a:hover{
-	background-color:#f0394d;
+	background-color:#e683ef;
 	color:#FFF;
 }
 

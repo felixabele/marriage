@@ -13,7 +13,7 @@ function initialize() {
   var mapOptions = {
     zoom: 14,
     maypeId: google.maps.MapTypeId.ROADMAP,
-    center: new google.maps.LatLng(52.13875622, 13.61944199),
+    center: new google.maps.LatLng(52.13737, 13.62334),
     panControl: true,
     zoomControl: true,
     mapTypeControl: true,
