@@ -200,7 +200,7 @@
 /* 01. GENERAL			 						 */
 /*===============================================*/
 body{
-	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif
+	font-family: 'kalinga', 'Helvetica Neue', Helvetica, Arial, sans-serif
 	color:#6a6a6a;
 	font-size:15px;
 }
@@ -216,7 +216,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
 
 h1 a:hover, h2 a:hover, h3 a:hover,
 h4 a:hover, h5 a:hover, h6 a:hover{
-	color:#e683ef;
+	color:#b658c1;
 }
 
 h1, h2, h3,
@@ -241,7 +241,7 @@ h2, .h2{
 
 h3, .h3{
 	font-size:20px;
-	color: #e683ef;
+	color: #b658c1;
 }
 
 h4, .h4{
@@ -263,8 +263,8 @@ h4.inline, h5.inline, h6.inline{
 }
 
 p{
-	/*font-family: 'Arvo', serif;*/
-	font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+	/*font-family: "Kalinga","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	font-family: "Kalinga","Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:15px;
 	line-height:26px;
 	margin-bottom:25px;
@@ -483,7 +483,7 @@ img.with-border{
   	font-weight: normal;
   	font-size:10px;
 	content: '\e9bd';
-	color:#e683ef;
+	color:#b658c1;
 	text-align:center;
 }
 
@@ -501,7 +501,7 @@ img.with-border{
 }
 
 #nav-menu > li a:hover{
-	color:#e683ef;
+	color:#b658c1;
 }
 
 /* 03.1.1 Transparent 							 */
@@ -511,7 +511,7 @@ img.with-border{
 }
 
 .transparent #nav-menu > li a:hover{
-	color:#e683ef;
+	color:#b658c1;
 }
 
 .transparent.stick-it #nav-menu > li a{
@@ -543,7 +543,7 @@ img.with-border{
 	list-style-type:none;
 	padding:0;
 	text-align:left;
-	border-top:solid 3px #e683ef
+	border-top:solid 3px #b658c1
 }
 
 #nav-menu li:hover > ul{
@@ -563,7 +563,7 @@ img.with-border{
 }
 
 #nav-menu ul li a:hover{
-	background-color:#e683ef;
+	background-color:#b658c1;
 	border:none;
 	color:#FFF;
 }
@@ -689,7 +689,7 @@ img.with-border{
 }
 
 #menu-icon a:hover i{
-	color:#e683ef
+	color:#b658c1
 }
 
 #menu-icon.white a i{
@@ -698,7 +698,7 @@ img.with-border{
 }
 
 #menu-icon.white a:hover i{
-	color:#e683ef
+	color:#b658c1
 }
 
 
@@ -726,7 +726,7 @@ img.with-border{
 }
 
 #sticky-menuicon a:hover{
-	background-color:#e683ef;
+	background-color:#b658c1;
 }
 
 #sticky-menuicon a:hover i{
@@ -783,7 +783,7 @@ img.with-border{
 }
 
 #close-button:hover i{
-	color:#e683ef;
+	color:#b658c1;
 }
 
 /* 04.3.3 Parent Menu */
@@ -805,7 +805,7 @@ img.with-border{
   	font-weight: normal;
   	font-size:10px;
 	content: '\e9bd';
-	color:#e683ef;
+	color:#b658c1;
 	text-align:center;
 	vertical-align:middle;
 	padding-right:10px;
@@ -820,7 +820,7 @@ img.with-border{
 }
 
 #side-nav-menu > li a:hover{
-	color:#e683ef;
+	color:#b658c1;
 }
 
 /* 04.3.4 Child Menu */
@@ -882,10 +882,10 @@ img.with-border{
 	width:100%;
 	height:100%;
 	border-radius:0%;
-	background-color:#e683ef;
+	background-color:#b658c1;
 	color:#FFF;
 	text-align:center;
-	font-family: 'Arvo', serif;
+	font-family: "Arvo",serif;
 }
 
 .css-logo.rounded{
@@ -1084,7 +1084,7 @@ img.with-border{
 }
 
 .pink-dot{
-	color: #e683ef;
+	color: #b658c1;
 }
 
 /* ----------------------------------------------*/
@@ -1271,7 +1271,7 @@ img.with-border{
 }
 
 .sidebar-menu li a:hover{
-	color:#e683ef;
+	color:#b658c1;
 }
 
 .side-tab{
@@ -1325,7 +1325,7 @@ img.with-border{
 	left:0;
 	right:0;
 	top:-12px;
-	color:#e683ef !important;
+	color:#b658c1 !important;
 	background-color:#e1dddd !important;
 }
 
@@ -1485,7 +1485,7 @@ hr.line-divider{
 }*/
 
 .pink-heart{
-	color:#e683ef;
+	color:#b658c1;
 	font-size:18px;
 	position:relative;
 	z-index:3
@@ -1526,8 +1526,8 @@ a.de-button.outline, span.de-button.outline, input[type=submit].outline{
 }
 
 a.de-button.reverse, span.de-button.reverse, input[type=submit].reverse{
-	background-color:#e683ef;
-	border:solid 1px #e683ef;
+	background-color:#b658c1;
+	border:solid 1px #b658c1;
 	color:#FFF;
 }
 
@@ -1547,8 +1547,8 @@ a.de-button.large, span.de-button.large, input[type=submit].large{
 }
 
 a.de-button:hover, input[type=submit]:hover{
-	background-color:#e683ef;
-	border-color:#e683ef;
+	background-color:#b658c1;
+	border-color:#b658c1;
 	color:#FFF;
 	text-decoration:none;
 }
@@ -1647,7 +1647,7 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 	font-family: "fontello";
 	position:absolute;
 	font-size:22px;
-	color:#e683ef;
+	color:#b658c1;
 	content:"\e806";
 	top:-17px;
 	left:0;
@@ -1806,11 +1806,11 @@ input[type=submit]:disabled, input[type=submit]:hover:disabled{
 }
 
 .de-icon.default.reverse{
-	color:#e683ef;
+	color:#b658c1;
 }
 
 a:hover .de-icon.default, a:hover .de-icon.default.light{
-	color:#e683ef;
+	color:#b658c1;
 }
 
 a:hover .de-icon.default.reverse{
@@ -1837,7 +1837,7 @@ a:hover .de-icon.default.light.reverse{
 }
 
 .de-icon.square.reverse, .de-icon.circle.reverse, .de-icon.rounded.reverse{
-	background-color:#e683ef;
+	background-color:#b658c1;
 	color:#FFF;
 }
 
@@ -1848,7 +1848,7 @@ a:hover .de-icon.default.light.reverse{
 
 .de-icon.square.light.reverse, .de-icon.circle.light.reverse, .de-icon.rounded.light.reverse{
 	background-color:#FFF;
-	color:#e683ef;
+	color:#b658c1;
 }
 
 
@@ -1860,8 +1860,8 @@ a:hover .de-icon.default.light.reverse{
 
 .de-icon.outline.reverse{
 	background-color:transparent;
-	color:#e683ef;
-	border:1px solid #e683ef;
+	color:#b658c1;
+	border:1px solid #b658c1;
 }
 
 .de-icon.outline.light, .de-icon.outline.light.reverse{
@@ -1871,7 +1871,7 @@ a:hover .de-icon.default.light.reverse{
 }
 
 a:hover .de-icon.circle, a:hover .de-icon.rounded, a:hover .de-icon.square{
-	background-color:#e683ef;
+	background-color:#b658c1;
 	color:#FFF;
 	border:none;
 }
@@ -1925,7 +1925,7 @@ a:hover .de-icon.effect2 i{
 /* 08.5 Effect Square/Rounded To Circle 	  	  */
 /*------------------------------------------------*/
 a:hover .de-icon.effect3{
-	background-color:#e683ef;
+	background-color:#b658c1;
 	color:#fff;
 	border-radius: 50%;
 }
@@ -2343,7 +2343,7 @@ form label{
 }
 
 .option-label{
-	font-family: 'Arvo', serif;
+	font-family: "Kalinga","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color:#6a6a6a;
 	font-size:13px;
 }
@@ -2356,7 +2356,7 @@ form .btn-primary
     padding: 12px 18px;
     margin: 0 15px 5px 15px;
     border-radius: 0;
-	font-family: 'Arvo', serif;
+	font-family: "Kalinga","Helvetica Neue",Helvetica,Arial,sans-serif;
 	color:#6a6a6a;
 	font-size:13px;
   	background-color: #FFF;
@@ -2369,8 +2369,8 @@ form .btn-primary.focus,
 form .btn-primary:active,
 form .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-	background-color:#e683ef;
-	border-color:#e683ef;
+	background-color:#b658c1;
+	border-color:#b658c1;
 	color:#FFF;
  	border-color: #cccccc;
 }
@@ -2443,7 +2443,7 @@ option{
 }
 
 .message .bg-danger{
-	background-color:#e683ef;
+	background-color:#b658c1;
 }
 
 .message .bg-success{
@@ -2707,7 +2707,7 @@ footer .image-divider.fixed-height{
 }
 
 .his-her-name .custom-heart{
-	background-color:#e683ef;
+	background-color:#b658c1;
 	width:65px;
 	height:65px;
 	line-height:65px;
@@ -2742,7 +2742,7 @@ footer .image-divider.fixed-height{
 	margin-left:16px;
 	height:85px;
 	width:85px;
-	background-color:#e683ef;
+	background-color:#b658c1;
 	border-radius:50%;
 }
 
@@ -2810,7 +2810,7 @@ footer .image-divider.fixed-height{
 }
 
 .and{
-	color:#e683ef
+	color:#b658c1
 }
 
 .border-column{
@@ -2856,7 +2856,7 @@ h2#dont-miss-it-title{
 }
 
 .circle-countdown .countdown-amount {
-	background-color:#e683ef;
+	background-color:#b658c1;
 	width:85px;
 	height:85px;
 	border-radius:50%;
@@ -2949,7 +2949,7 @@ h2#dont-miss-it-title{
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span{
-	background: #e683ef;
+	background: #b658c1;
 }
 
 /* -------------------------------------------*/
@@ -3123,7 +3123,7 @@ button.mfp-close, button.mfp-arrow {
 }
 
 #nav-menu li a:hover{
-	background-color:#e683ef;
+	background-color:#b658c1;
 	color:#FFF;
 }
 
