@@ -115,10 +115,10 @@
 .heart-animation {
 	display:inline-block;
 	margin:0 auto;
-	font-size:20px; 
+	font-size:20px;
 	line-height:20px;
 	letter-spacing:-20px;
-	
+
 	-webkit-animation: heart-zoom infinite 1.2s;
   	   -moz-animation: heart-zoom infinite 1.2s;
  	    -ms-animation: heart-zoom infinite 1.2s;
@@ -127,16 +127,16 @@
 }
 
 .heart-animation i{
-	color:#f0394d;
+	color:#b658c1;
 }
 
 .heart-animation-reverse {
 	display:inline-block;
-	margin:0 auto; 
+	margin:0 auto;
 	padding-right:20px;
-	font-size:20px; 
+	font-size:20px;
 	line-height:20px;
-	
+
     -webkit-animation: heart-zoom-reverse infinite 1.2s;
   	   -moz-animation: heart-zoom-reverse infinite 1.2s;
  	    -ms-animation: heart-zoom-reverse infinite 1.2s;

@@ -4,14 +4,14 @@
 	top:0;
 	left:0;
 	right:0;
-	bottom:0; 
+	bottom:0;
 	z-index:9999;
 }
 
 #preloader.background_image{
 	background-image:url(http://placehold.it/1920x1080);
-	background-position:center center; 
-	background-size:cover; 
+	background-position:center center;
+	background-size:cover;
 }
 
 #preloader .black-overlay{
@@ -20,7 +20,7 @@
 	top:0;
 	left:0;
 	right:0;
-	bottom:0; 
+	bottom:0;
 	opacity:0.6
 }
 
@@ -30,7 +30,7 @@
 	top:0;
 	left:0;
 	right:0;
-	bottom:0; 
+	bottom:0;
 	opacity:0.6
 }
 
