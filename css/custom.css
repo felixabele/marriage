@@ -5,3 +5,8 @@
 	margin-top: 16px;
 	padding-left: 16px;
 }
+
+.email-address b {
+	color: #b658c1;
+	font-weight: normal;
+}
