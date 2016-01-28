@@ -31,7 +31,7 @@ function initialize() {
   //ADD NEW MARR TH LABEL
   //=======================================================================================
   var marker1 = new MarkerWithLabel({
-    position: new google.maps.LatLng(52.13875622, 13.61944199),
+    position: new google.maps.LatLng(52.1365, 13.62318873),
     draggable: false,
     raiseOnDrag: false,
     icon: ' ',

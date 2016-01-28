@@ -7,7 +7,7 @@ var Fieldbook = new function() {
 
   this.create = function(record, success, error) {
     $.ajax({
-      url: 'http://localhost:3000/', // 'https://fieldbook-proxy.herokuapp.com/'
+      url: 'https://fieldbook-proxy.herokuapp.com/',
       data: record,
       type: 'POST',
       dataType: 'json',
