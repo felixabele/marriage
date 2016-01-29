@@ -62,15 +62,15 @@ var Rsvp = new function() {
         Fieldbook.create(
           form,
           function(data) {
-            if ((data.error) && (data.duplicate)) {
+            if (data.action == 'update') {
               send_message('Wir haben Dein Feedback schon und Deine Angaben aktualisiert');
-            } else {
+            } else if (data.action == 'new') {
               send_message('Dankeschön für Dein Feedback');
             }
             $('#rsvp_form').hide();
           },
           function(data) {
-            send_message(data)
+            send_message('Da hat was nicht geklappt :( <pre>'+ JSON.stringify(data) +'</pre>');
           }
         );
       }
