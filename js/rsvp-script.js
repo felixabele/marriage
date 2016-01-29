@@ -33,7 +33,7 @@ var Rsvp = new function() {
     $msg.show();
 
     $('html, body').animate({
-        scrollTop: ($msg.offset().top-100)
+        scrollTop: ($msg.offset().top-200)
     }, 700);
   };
 
