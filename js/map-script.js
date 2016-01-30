@@ -20,6 +20,7 @@ function initialize() {
     //scaleControl: false,
     streetViewControl: true,
     overviewMapControl: true,
+    scrollwheel: false,
     //rotateControl:true,
 
   };
