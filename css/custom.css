@@ -1,4 +1,10 @@
-@font-face { font-family: Snatchy; src: url('fonts/Snatchy.ttf'); }
+@font-face {
+	font-family: Snatchy;
+	src: url('fonts/Snatchy.eot');
+	src: url('fonts/Snatchy.eot?') format('eot'),
+	url('fonts/Snatchy.ttf')  format('truetype');
+}
+
 @font-face { font-family: Kalinga; src: url('fonts/kalinga.ttf'); }
 
 .paragraph-list {
