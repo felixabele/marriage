@@ -55,7 +55,7 @@ var Rsvp = new function() {
     $('#rsvp_form').submit(function(e) {
       e.preventDefault();
       $.each($(this).serializeArray(), function(i, field) {
-        form[field.name] = field.value;
+        form[field.name] = field.value.replace(/ö|Ö|Ü|ü|ä|Ä/, "-");
       })
 
       if (validate(form)) {
