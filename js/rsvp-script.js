@@ -59,6 +59,9 @@ var Rsvp = new function() {
       })
 
       if (validate(form)) {
+
+        $('#rsvp_submit').html('<p>... Einen Moment bitte ...</p>');
+
         Fieldbook.create(
           form,
           function(data) {
